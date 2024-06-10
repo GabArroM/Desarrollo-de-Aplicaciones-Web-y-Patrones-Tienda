@@ -1,27 +1,80 @@
-/*para id #*/
-#contenedorTitulo{
+#encabezado {    
+    position: absolute;    
+    top: 0;    
+    left: 0;    
+    height: 8%;    
+    width: 100%;    
+    background-color: #496D8D;    
+    color: white;
+}
+#encabezado h1 {    
+    display: inline;
+}
+
+#menu {   
+    position: absolute;   
+    top: 8%;   
+    left: 0;   
+    height: 4%;   
+    width: 100%;   
+    background-color: #9B8030;  
+    color: black;
+}
+
+#menu a:visited {    
+    color: navy;
+}
+#menu a:hover {    
+    background-color: green;    
+    color: white;
+}
+
+#barraLateral {    
+    position: absolute;   
+    top: 12%;    
+    left: 0;   
+    height: 81%; 
+    width: 20%;  
+    background-color: #8e27f6;   
+    color: black;
+}
+
+#contenido {    
+    position: absolute;    
+    top: 12%;    
+    left: 20%;    
+    height: 81%;    
+    width: 80%;    
+    background-color: #24a1df;   
+    color: black;    
+    overflow: auto;
+}
+
+#piePagina {   
+    position: absolute;   
+    bottom: 0;  
+    left: 0;   
+    height: 7%;   
+    width: 100%;   
+    background-color: #87f29b;  
+    color: black;    
     text-align: center;
-    color: peru;
-}
-/*para clases el .*/
-
-.parrafoSecundario{
-    font-size: 24px;
-    color: green;
 }
 
-.notaiImportante{
-    color: red;
+#encabezadoTabla {  
+    font-size: 20px;   
+    color: white;  
+    background-color: cadetblue;
 }
-h1,h2,h3{
-    color: purple;
+
+#tablaResumen tr {    
+    font-size: 25px;
 }
-h1{
-    font-size: 2.5em;
+
+#tablaResumen tr:nth-child(odd) {    
+    background-color: gold;
 }
-h2{
-    font-size: 16px;
-}
-h3{
-    font-size: 1em;
+
+#tablaResumen tr:nth-child(even) {    
+    background-color: coral;
 }
